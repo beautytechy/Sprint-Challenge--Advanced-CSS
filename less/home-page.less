@@ -59,9 +59,12 @@
 
       .btn {
         .btn-style(@btn-bg-color, @porcelain);
-        }
-      
-    }//this closes walk
+          &:hover {
+            background: @wild-sand;
+            color: @ebony-clay;
+          }//this closes hover effect
+        }//this closes .bth
+    }//this closes walk-text
 
     .walk-img {
       width: 46%;
