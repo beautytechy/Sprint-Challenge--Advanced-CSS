@@ -173,8 +173,9 @@ p {
   margin: auto;
 }
 .nav-content nav h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 10px;
+  color: #454A59;
 }
 .nav-content nav .links {
   display: flex;
@@ -237,6 +238,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background: #22283A;
+  color: #F6F7F8;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
 }
 .home .walk .walk-img {
   width: 46%;
