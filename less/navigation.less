@@ -1,1 +1,34 @@
-// Navigation code here
+.nav-content {
+    width: 100%;
+    background: @wild-sand;
+    border-bottom: 1px solid @sea-shell;
+
+    nav {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+        
+        @media @phone {
+        width: 100%;
+        }
+
+    h1 {
+        font-size: 4rem;
+        padding: 10px;
+        color: @river-bend;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            font-size: 2rem;
+            padding: 10px;
+            color: @river-bend;
+        }
+    }
+}
+}
